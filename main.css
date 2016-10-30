@@ -50,3 +50,40 @@ html,body{
 	color:#fff;
 	font-size:1.45em;
 }
+
+article{
+	width:95%;
+	padding:4em 1em;
+	background:#fff;
+	margin:1em auto;
+	position:relative;
+	border-left:4px solid #aaa;
+	border-bottom:4px solid #888;
+}
+
+article h2{
+	position:absolute;
+	top:0;
+	left:-4px;
+	width:100%;
+	color:#fff;
+	background:#FF1744;
+	padding-left:1em;
+	text-shadow:1px 1px 1px #000;
+	border-left:4px solid #D50000;
+	max-width:90%;
+	font-size:1.75em;
+}
+
+article h3{
+	color:#555;
+	font-size:1.5em;
+}
+
+article img{
+	max-width:100%;
+}
+
+article p{
+	font-size:1.1em;
+}

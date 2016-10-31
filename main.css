@@ -75,6 +75,18 @@ article h2{
 	font-size:1.75em;
 }
 
+article h2:after{
+	position:absolute;
+	top:-.125em;
+	right:-.7em;
+	width: 0; 
+	height: 0; 
+	border-top:.75em solid transparent;
+	border-bottom:.75em solid transparent;
+	border-left:.75em solid #FF1744;
+	content:'';
+}
+
 article h3{
 	color:#555;
 	font-size:1.5em;

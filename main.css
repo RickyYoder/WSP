@@ -125,3 +125,21 @@ article img{
 article p{
 	font-size:1.1em;
 }
+
+article div{
+	text-align:center;
+}
+
+article button{
+	background:#D50000;
+	color:#eee;
+	font-weight:bold;
+	padding:1em;
+	border:0;
+	margin:1em 0;
+}
+
+article button:hover{
+	cursor:pointer;
+	background:#B71C1C;
+}

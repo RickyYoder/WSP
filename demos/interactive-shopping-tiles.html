@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width"/>
+		<link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"/>
+		<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+		<style>
+			*{
+				-webkit-box-sizing:border-box;
+				-moz-box-sizing:border-box;
+				box-sizing:border-box;
+			}
+			
+			.contentBox{
+				-webkit-box-sizing:content-box !important;
+				-moz-box-sizing:content-box !important;
+				box-sizing:content-box !important;
+			}
+		
+			html,body{
+				width:100%;
+				height:100%;
+				margin:0 auto;
+				padding:1em;
+				max-width:900px;
+			}
+			
+			div.item{
+				-webkit-transition:all .1s;
+				-moz-transition:all .1s;
+				transition:all .1s;
+				vertical-align:top;
+				padding:.5em;
+				width:32.5%;
+				display:inline-block;
+				text-align:right;
+				box-shadow:0 0 2px #222;
+				cursor:pointer;
+			}
+			
+			div.item:hover{
+				padding:1em;
+				box-shadow:0 0 5px #222;
+			}
+			
+			img{
+				width:100%;
+				display:block;
+			}
+			
+			.icon{
+				font-size:1.75em;
+				text-align:left;
+			}
+			
+			button{
+				background:transparent;
+				border:0;
+				
+				margin:.5em 0;
+				padding:.25em 1em .25em .5em;
+				width:2.5em;
+				height:2.5em;
+				overflow:hidden;
+				white-space:nowrap;
+				-webkit-transition:all .2s;
+				-moz-transition:all .2s;
+				transition:all .2s;
+				text-align:left;
+				cursor:pointer;
+			}
+			
+			button:hover{
+				color:#fff;
+				width:50%;
+			}
+			
+			button.addToCart{
+				background:#ffe100;
+			}
+			
+			button.addToCart:hover{
+				background:#f7c01d;
+			}
+			
+			button.addToWishlist{
+				background:#ff4242;
+			}
+			
+			button.addToWishlist:hover{
+				background:#d33737;
+			}
+			
+			h3{
+				display:inline;
+				text-align:left;
+			}
+		</style>
+		<title>Interactive Shopping Tiles Example</title>
+	</head>
+	<body>
+		<div class="item contentBox">
+			<h3>XBit Metal 8GB USB 3.0 Flash Drive</h3>
+			<img src="flash-drive.jpg" alt="XBit Metal Flash Drive"/>
+			
+			<button class="addToCart"><i class="material-icons icon">shopping_cart</i> Add to Cart </button>
+			<button class="addToWishlist"><i class="material-icons icon">favorite</i> Add to Wishlist </button>
+		</div>
+		
+		<div class="item contentBox">
+			<h3>XBit 64GB USB 3.0 Wristband Flash Drive</h3>
+			<img src="wristband-flash-drive.jpg" alt="XBit Metal Flash Drive"/>
+			<button class="addToCart"><i class="material-icons icon">shopping_cart</i> Add to Cart </button>
+			<button class="addToWishlist"><i class="material-icons icon">favorite</i> Add to Wishlist </button>
+		</div>
+	</body>
+</html>

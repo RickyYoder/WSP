@@ -113,8 +113,11 @@ ul li:nth-child(odd){
 	background:#eee;
 }
 
-article h3{
+article h3, article h4{
 	color:#555;
+}
+
+article h3{
 	font-size:1.5em;
 }
 
@@ -137,9 +140,13 @@ article button{
 	padding:1em;
 	border:0;
 	margin:1em 0;
+	-webkit-transition:padding .25s;
+	-moz-transition:padding .25s;
+	transition:padding .25s;
 }
 
 article button:hover{
 	cursor:pointer;
 	background:#B71C1C;
+	padding:1em 4em;
 }

@@ -1,0 +1,13 @@
+Summary:
+
+Throughout the course of the month I created 5 web components that I thought were key in modern web design.
+I frequently updated the homepage until I was satisfied with the look, and created the 5 components from scratch.
+If I came across any road blocks, I would reference sites like CSS-Tricks and StackOverflow to find the answer to my questions.
+By completing these components, I've refined my skills as an independent developer.
+
+Postmortem:
+I struggled with making my components built from scratch look like what I was attempting to immitate.
+To solve this, I simply inspected the source code of the component(s) I struggled with, and digested the CSS.
+One thing I can do better is proper quality checking to make sure I have no broken links/buttons on my final result, as I can't let things slide for a professional project.
+I did very well in staying focused this month and gaining more experience than what I've ever had before. 
+This month allowed me to reflect on my skills, and have dedicated time to refine them.
